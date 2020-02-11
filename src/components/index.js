@@ -48,7 +48,6 @@ class UserForm extends Component {
      <React.Fragment>
           <div className={classes.container}>
          <Paper elevation={1} className={classes.paper}>
-           <h1>Form</h1>
            <Formik
             render={props => <Form {...props} />}
             initialValues={values}

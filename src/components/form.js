@@ -106,7 +106,7 @@ export const Form = props =>  {
                 required
                 fullWidth
                 name="phoneNumber"
-                label="phoneNumber"
+                label="Phone Number"
                 type="phoneNumber"
                 id="phoneNumber"
                 helperText={touched.phoneNumber ? errors.phoneNumber : ""}
@@ -121,7 +121,7 @@ export const Form = props =>  {
                 required
                 fullWidth
                 name="address"
-                label="address"
+                label="Address"
                 type="address"
                 id="address"
                 helperText={touched.address ? errors.address : ""}
@@ -136,7 +136,7 @@ export const Form = props =>  {
                 required
                 fullWidth
                 name="zipCode"
-                label="zipCode"
+                label="Zip Code"
                 type="zipCode"
                 id="zipCode"
                 helperText={touched.zipCode ? errors.zipCode : ""}
