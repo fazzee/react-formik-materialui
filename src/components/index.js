@@ -19,7 +19,8 @@ const styles = theme => ({
  }
 });
 
-const phoneNumberRegex = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/;
+const phoneNumberRegex = /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/;
+
 
 const validationSchema = Yup.object({
   name: Yup.string("Enter a name").required("Name is required"),
